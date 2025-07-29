@@ -38,6 +38,7 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
+    implementation 'com.github.weidd0523:add:v1.0.0'
 }
 // 重要：配置 Maven 发布
 afterEvaluate {

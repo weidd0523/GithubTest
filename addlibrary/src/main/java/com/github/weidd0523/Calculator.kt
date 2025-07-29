@@ -33,6 +33,21 @@ class Calculator {
     fun addAll(vararg numbers: Double): Double {
         return numbers.sum()
     }
+    /**
+     * 两个整数相减
+     */
+    fun subtraction(a: Int, b: Int): Int {
+        return a - b
+    }
+
+    /**
+     * 两个浮点数相减
+     */
+    fun subtraction(a: Double, b: Double): Double {
+        return a - b
+    }
+
+
 
     companion object {
         /**
